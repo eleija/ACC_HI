@@ -1,5 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,300italic,300);
 /* ---------- Global Style Settings ---------- */
-
+body{
+    font-family: 'Roboto';
+}
+h1{
+    font-size: 2.5rem;
+}
+p{
+    font-weight: 300;
+}
 .row {
   width: 100%; max-width: 1600px;
   margin: 0 auto;
@@ -12,6 +21,7 @@
   min-height: 1px;
   position: relative;
 }
+
 .col:first-child, .cols:first-child {
   margin-left: 0px;
 }
@@ -41,29 +51,213 @@
 .row .offset-by-ten 	{ margin-left: 91.4%;  }
 /*.row .offset-by-eleven 	{ margin-left: 95.7%;  }*/
 
+/* ---------- Home Page ---------- */
+.fullWidth{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.content{
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+ 
+}
+.logo{
+    width: 280px;
+    padding: 20px;
+    padding-top:30px;
+}
+
+.top-bar {
+    height: 90px;
+    background-color: #fff;
+}
+
+.top-bar-section{
+    position: relative;
+}
+
+.top-bar-section ul {
+    background-color: #fff;
+}
+.top-bar-section ul li{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.top-bar-section ul li a{
+    font-family: 'Roboto';
+    letter-spacing: 0.01rem;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform:uppercase;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background-color: #fff;
+    color: #333;
+    margin-top: 20px;
+}
+
+.mainNav{
+    margin-left: 25px;
+}
+
+.rightNav ul li{
+    background-color: lightblue;
+    margin-right: 0px;
+}
+
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+    height: 100px;
+    background-color: #c6c0c0;
+    border-right: solid 1px #ede8e8;
+    margin-right: 20px;
+}
+
+
+.top-bar-section > ul > .rightNav{
+    width: 200 px;
+}
+
+.small-block-grid-4{
+    color: #fff;
+    line-height: 0px;
+    text-align: center
+}
+
+.small-block-grid-4 > li {
+    width: 50%;
+    margin-right: 0px;
+}
+
+.small-block-grid-4 li:nth-child(1){
+    background-color: #405e9b;
+}
+.small-block-grid-4 li:nth-child(2){
+    background-color: #55acee;
+}
+.small-block-grid-4 li:nth-child(3){
+    background-color: #cc181e;
+}
+.small-block-grid-4 li:nth-child(4){
+    background-color: #33454e;
+}
+
+/*Slider*/
+.hero { width: 100%; position: relative; overflow: hidden;  }
+.hero-carousel article { width: 960px; height: 480px; margin: 0 auto; display: block; float: left; position: relative; 
+/*opacity:.6; -webkit-transition: opacity .5s ; -moz-transition: background-color .5s ; -ms-transition: opacity .5s ; -o-transition: opacity .5s ; transition: opacity .5s ;*/ }
+.hero-carousel article img{ position: absolute; max-width: 960px; top: 0; left: 0; z-index: 1; }
+.hero-carousel article .contents { position: relative; z-index: 2; top: 72px; left: 48px; list-style: none; color: #000; width: 556px; padding: 20px;
+background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
+-moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; }
+.hero-carousel-nav { 
+    width: 1920px; position: absolute; top:400px; left: 50%; margin-left: -930px; z-index: 2; 
+}
+.hero-carousel-nav li { 
+    position: absolute; bottom: 0px; right: 60px; list-style: none; 
+    background-color: #000;
+    opacity: .80 ;
+    width: 450px;
+}
+.hero-carousel-nav li.prev { left: 0px; right: auto;}
+.hero-carousel-nav li a { 
+    font-size: 2.5em; color: #000; display: block; float: left; 
+    width: 450px; height: 400px; text-align: center; opacity:.07;}
+.hero-carousel-nav li.prev a { 
+    background-size:30px 90px;
+    background-repeat:no-repeat;
+    background-image:url('../img/icons/LeftArrow.png'); 
+    background-position:70% 50%;
+/*    background-position:10px 50px;*/
+}
+.hero-carousel-nav li.next a {
+    background-size:30px 90px;
+    background-repeat:no-repeat;
+    background-image:url('../img/icons/RightArrow.png');
+    background-position:30% 50%;
+}
+.hero-carousel-nav li a:hover { opacity:1; }
+.hero-carousel-nav li a:active, .hero-carousel-nav li a:focus { border: none; outline: none; }
+.hero-carousel article.hc-current { opacity: 1; }
+
+/*End Slider*/
+
+
+.top-bar-section .socialGrid .fa{
+    padding: 0px;
+    padding-top:5px;
+    font-size: 16px;
+}
+
+
+.FeaturedBox{ height: 300px; margin-top: -30px;}
+
+.FeaturedBold{ font-weight: bold; color: #c55d42;}
+
+.FeaturedButton{
+    position: absolute;
+    bottom: -10px;
+    background-color: #c55d42;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+.FeaturedButton:hover{
+    background-color: #be7462;
+}
+
+.FeaturedHeader{
+    font-weight: bold;
+    font-family: 'Roboto';
+    letter-spacing: 0.05rem;
+    font-size: 26px;
+    color: #7cada9;
+}
+
+.fa{font-weight: bold} 
+
+.fa-angle-right{
+    font-size: 20px;
+}
+
 .center-text {
 	text-align: center;
 }
 
+/*.centeredBoxes{
+    padding-left: 5%;
+}*/
+
 /* ---------- Affiliates Page ---------- */
 
 .page_title {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-weight: 500;
 	margin-left: 2rem;
 	margin-bottom: 2rem;
 }
 
 .major_affiliate_row {
-	background-color: #e1e4ea;
+	background-color: #f0f0f0;
 	padding-bottom: 2rem;
+<<<<<<< HEAD
 	
+=======
+    
+>>>>>>> FETCH_HEAD
 }
 
 .major_affiliate_block {
+
 }
 
 .major_affiliate_info {
 	background-color: white;
-	max-width: 400px;
+	max-width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: -3px;
@@ -74,10 +268,13 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 0px;
+    width: 70%;
 }
 
 .major_affiliate_name{
-	padding-top: .85rem;
+	padding-top: .8rem;
+    font-family: 'Roboto';
+    font-size: 1.2em;
 }
 
 .major_affiliate_hr {
@@ -91,6 +288,7 @@
 
 .major_affiliate_description {
 	text-align: left;
+    font-size: 0.85em;
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
@@ -98,16 +296,21 @@
 }
 
 .ucsd_affiliate_row {
-	background-color: #78a3a1;
-	padding-top: 2rem;
-	padding-bottom: 3rem;
+	background-color: #7cada9;
+	padding-top: 3rem;
+	padding-bottom: 5rem;
 }
 
 .ucsd_affiliate_container {
 	border: 3px solid white;
+    padding: 15px;
 }
 
 .ucsd_affiliate_title {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 1.8em;
+    font-weight: 500;
 	color: white;
 	margin-left: 2rem;
 	margin-bottom: 2rem;
@@ -117,8 +320,17 @@
 	color: white;
 	margin-left: 2.5rem;
 	margin-top: 1.5rem;
-	font-size: 20px;
+	font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.04rem;
 }
+
+.ucsd_affiliate_name a{
+    color: white;}
+.ucsd_affiliate_name a:hover{
+    color: #577e7a;
+font-weight: 400;}
 
 .ucsd_affiliate_name_small {
 	color: white;
@@ -127,16 +339,21 @@
 }
 
 .other_affiliate_row {
-	background-color: #e1e4ea;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	background-color: #ededed;
+	padding-top: 4rem;
+	padding-bottom: 5rem;
 }
 
 .other_affiliate_container {
 	border: 3px solid black;
+    padding: 15px;
 }
 
 .other_affiliate_title {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    font-size: 1.7em;
 	color: black;
 	margin-left: 2rem;
 	margin-bottom: 2rem;
@@ -146,7 +363,10 @@
 	color: black;
 	margin-left: 2.5rem;
 	margin-top: 1.5rem;
-	font-size: 20px;
+	font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.04rem;
 }
 
 .other_affiliate_name_small {
@@ -155,6 +375,11 @@
 	margin-top: 1.5rem;
 }
 
+.other_affiliate_name a{
+    color: black;}
+.other_affiliate_name a:hover{
+    color: #333;
+font-weight: 400;}
 /* ---------- About Page ---------- */
 
 .about_first_paragraph {
@@ -249,27 +474,34 @@
 }
 
 
+/* ---------- Footer ---------- */
+footer{
+    background-color: #333;
+    height: 7.4rem;
+    padding-top: 30px;
+}
+footer a{
+    color: white;
+    font-size: 14px;
+}
+footer a:hover{
+    color: #813c2a;
+}
 
+#otherinfo{
+    padding-top:10px;
+    background-color: #c55d42;
+}
+span{
+    margin-left: 15px;}
+span img{
+    margin-bottom: 10px;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#links{
+    margin-left: 15px;
+}
+.copyright{
+    font-size: 12px;}
 
 
 
