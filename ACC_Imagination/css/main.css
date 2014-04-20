@@ -1,3 +1,5 @@
+/* ---------- Global Style Settings ---------- */
+
 .row {
   width: 100%; max-width: 1600px;
   margin: 0 auto;
@@ -39,6 +41,7 @@
 .row .offset-by-ten 	{ margin-left: 91.4%;  }
 /*.row .offset-by-eleven 	{ margin-left: 95.7%;  }*/
 
+<<<<<<< HEAD
 
 /*Edgardo Edits*/
 .fullWidth{
@@ -194,3 +197,238 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 .fa-angle-right{
     font-size: 20px;
 }
+=======
+.center-text {
+	text-align: center;
+}
+
+/* ---------- Affiliates Page ---------- */
+
+.page_title {
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+}
+
+.major_affiliate_row {
+	background-color: #e1e4ea;
+	padding-bottom: 2rem;
+}
+
+.major_affiliate_block {
+}
+
+.major_affiliate_info {
+	background-color: white;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -3px;
+}
+
+.major_affiliate_pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+}
+
+.major_affiliate_name{
+	padding-top: .85rem;
+}
+
+.major_affiliate_hr {
+	border: solid #dddddd;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: .75rem auto 1.1875rem auto;
+	height: 0;
+	width: 85%;
+}
+
+.major_affiliate_description {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	padding-bottom: 1rem;
+}
+
+.ucsd_affiliate_row {
+	background-color: #78a3a1;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+
+.ucsd_affiliate_container {
+	border: 3px solid white;
+}
+
+.ucsd_affiliate_title {
+	color: white;
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+}
+
+.ucsd_affiliate_name {
+	color: white;
+	margin-left: 2.5rem;
+	margin-top: 1.5rem;
+	font-size: 20px;
+}
+
+.ucsd_affiliate_name_small {
+	color: white;
+	margin-left: 1rem;
+	margin-top: 1.5rem;
+}
+
+.other_affiliate_row {
+	background-color: #e1e4ea;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.other_affiliate_container {
+	border: 3px solid black;
+}
+
+.other_affiliate_title {
+	color: black;
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+}
+
+.other_affiliate_name {
+	color: black;
+	margin-left: 2.5rem;
+	margin-top: 1.5rem;
+	font-size: 20px;
+}
+
+.other_affiliate_name_small {
+	color: black;
+	margin-left: 1rem;
+	margin-top: 1.5rem;
+}
+
+/* ---------- About Page ---------- */
+
+.about_first_paragraph {
+	margin-top: 1rem;
+}
+
+.about_second_paragraph {
+	margin-top: 1rem;
+}
+
+/* ---------- Contact Page ---------- */
+
+.contact_section {
+	background-color: #78a3a1;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+/*.contact_section > h3, p {
+	color:  white;
+	margin-top: 1em;
+}*/
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
+
+#contact_form_message_textarea {
+	resize: vertical;
+	height: 10rem;
+	max-height: 15rem;
+}
+
+/* ---------- People Page ---------- */
+
+.people_content {
+	margin-top: 2rem;
+	/*background-color: #dfe1e3;*/
+}
+
+.first_people_container {
+	background-color: #e1e4ea;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.first_people_container > .person_section {
+	margin-top: 2rem;
+}
+
+.people_container {
+	background-color: #e1e4ea;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.tabs dd.active a {
+	background: lightgreen;
+}
+
+.tabs dd a {
+	background: white;
+}
+
+.tabs dd a:hover {
+	background: lightgreen;
+}
+
+.people_content > div > dl {
+	margin-top: 2rem;
+}
+
+.modal_person_name {
+	margin-bottom: 0rem;
+}
+
+.modal_person_job_title {
+	margin-top: 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> FETCH_HEAD
