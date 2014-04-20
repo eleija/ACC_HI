@@ -41,9 +41,7 @@
 .row .offset-by-ten 	{ margin-left: 91.4%;  }
 /*.row .offset-by-eleven 	{ margin-left: 95.7%;  }*/
 
-<<<<<<< HEAD
-
-/*Edgardo Edits*/
+/* ---------- Home Page ---------- */
 .fullWidth{
     width: 100%;
     padding-left: 0px;
@@ -87,6 +85,11 @@
     margin-left: 25px;
 }
 
+.rightNav ul li{
+    background-color: lightblue;
+    margin-right: 0px;
+}
+
 .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
     height: 100px;
     background-color: #c6c0c0;
@@ -124,8 +127,8 @@
 
 /*Slider*/
 .hero { width: 100%; position: relative; overflow: hidden;  }
-.hero-carousel article { width: 960px; height: 480px; margin: 0 auto; display: block; float: left; position: relative; opacity:.6; 
--webkit-transition: opacity .5s ; -moz-transition: background-color .5s ; -ms-transition: opacity .5s ; -o-transition: opacity .5s ; transition: opacity .5s ; }
+.hero-carousel article { width: 960px; height: 480px; margin: 0 auto; display: block; float: left; position: relative; 
+/*opacity:.6; -webkit-transition: opacity .5s ; -moz-transition: background-color .5s ; -ms-transition: opacity .5s ; -o-transition: opacity .5s ; transition: opacity .5s ;*/ }
 .hero-carousel article img{ position: absolute; max-width: 960px; top: 0; left: 0; z-index: 1; }
 .hero-carousel article .contents { position: relative; z-index: 2; top: 72px; left: 48px; list-style: none; color: #000; width: 556px; padding: 20px;
 background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
@@ -136,7 +139,7 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 .hero-carousel-nav li { 
     position: absolute; bottom: 0px; right: 60px; list-style: none; 
     background-color: #000;
-    opacity: .7 ;
+    opacity: .80 ;
     width: 450px;
 }
 .hero-carousel-nav li.prev { left: 0px; right: auto;}
@@ -197,9 +200,13 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 .fa-angle-right{
     font-size: 20px;
 }
-=======
+
 .center-text {
 	text-align: center;
+}
+
+.centeredBoxes{
+    padding-left: 5%;
 }
 
 /* ---------- Affiliates Page ---------- */
@@ -411,24 +418,3 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> FETCH_HEAD
