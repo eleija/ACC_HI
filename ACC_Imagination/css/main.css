@@ -51,8 +51,172 @@ p{
 .row .offset-by-ten 	{ margin-left: 91.4%;  }
 /*.row .offset-by-eleven 	{ margin-left: 95.7%;  }*/
 
+/* ---------- Home Page ---------- */
+.fullWidth{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.logo{
+    width: 350px;
+    padding: 20px; 
+}
+
+.top-bar {
+    height: 90px;
+    background-color: #fff;
+}
+
+.top-bar-section{
+    position: relative;
+}
+
+.top-bar-section ul {
+    background-color: #fff;
+}
+.top-bar-section ul li{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.top-bar-section ul li a{
+    font-size: 14px;
+    font-weight: 800;
+    text-transform:uppercase;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background-color: #fff;
+    color: #333;
+    margin-top: 20px;
+}
+
+.mainNav{
+    margin-left: 25px;
+}
+
+.rightNav ul li{
+    background-color: lightblue;
+    margin-right: 0px;
+}
+
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+    height: 100px;
+    background-color: #c6c0c0;
+    border-right: solid 2px #ede8e8;
+}
+
+
+.top-bar-section > ul > .rightNav{
+    width: 200 px;
+}
+
+.small-block-grid-4{
+    color: #fff;
+    line-height: 0px;
+    text-align: center
+}
+
+.small-block-grid-4 > li {
+    width: 50%;
+    margin-right: 0px;
+}
+
+.small-block-grid-4 li:nth-child(1){
+    background-color: #405e9b;
+}
+.small-block-grid-4 li:nth-child(2){
+    background-color: #55acee;
+}
+.small-block-grid-4 li:nth-child(3){
+    background-color: #cc181e;
+}
+.small-block-grid-4 li:nth-child(4){
+    background-color: #33454e;
+}
+
+/*Slider*/
+.hero { width: 100%; position: relative; overflow: hidden;  }
+.hero-carousel article { width: 960px; height: 480px; margin: 0 auto; display: block; float: left; position: relative; 
+/*opacity:.6; -webkit-transition: opacity .5s ; -moz-transition: background-color .5s ; -ms-transition: opacity .5s ; -o-transition: opacity .5s ; transition: opacity .5s ;*/ }
+.hero-carousel article img{ position: absolute; max-width: 960px; top: 0; left: 0; z-index: 1; }
+.hero-carousel article .contents { position: relative; z-index: 2; top: 72px; left: 48px; list-style: none; color: #000; width: 556px; padding: 20px;
+background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
+-moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; }
+.hero-carousel-nav { 
+    width: 1920px; position: absolute; top:400px; left: 50%; margin-left: -930px; z-index: 2; 
+}
+.hero-carousel-nav li { 
+    position: absolute; bottom: 0px; right: 60px; list-style: none; 
+    background-color: #000;
+    opacity: .80 ;
+    width: 450px;
+}
+.hero-carousel-nav li.prev { left: 0px; right: auto;}
+.hero-carousel-nav li a { 
+    font-size: 2.5em; color: #000; display: block; float: left; 
+    width: 450px; height: 400px; text-align: center; opacity:.07;}
+.hero-carousel-nav li.prev a { 
+    background-size:30px 90px;
+    background-repeat:no-repeat;
+    background-image:url('../img/icons/LeftArrow.png'); 
+    background-position:70% 50%;
+/*    background-position:10px 50px;*/
+}
+.hero-carousel-nav li.next a {
+    background-size:30px 90px;
+    background-repeat:no-repeat;
+    background-image:url('../img/icons/RightArrow.png');
+    background-position:30% 50%;
+}
+.hero-carousel-nav li a:hover { opacity:1; }
+.hero-carousel-nav li a:active, .hero-carousel-nav li a:focus { border: none; outline: none; }
+.hero-carousel article.hc-current { opacity: 1; }
+
+/*End Slider*/
+
+
+.top-bar-section .socialGrid .fa{
+    padding: 0px;
+    padding-top:5px;
+    font-size: 16px;
+}
+
+
+.FeaturedBox{ height: 300px;}
+
+.FeaturedBold{ font-weight: bold; color: #c55d42;}
+
+.FeaturedButton{
+    position: absolute;
+    bottom: -10px;
+    background-color: #c55d42;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+
+.FeaturedButton:hover{
+    background-color: #be7462;
+}
+
+.FeaturedHeader{
+    font-weight: bold;
+    font-size: 30px;
+    color: #7cada9;
+}
+
+.fa{font-weight: bold} 
+
+.fa-angle-right{
+    font-size: 20px;
+}
+
 .center-text {
 	text-align: center;
+}
+
+.centeredBoxes{
+    padding-left: 5%;
 }
 
 /* ---------- Affiliates Page ---------- */
@@ -323,6 +487,7 @@ span img{
 .copyright{
     font-size: 12px;}
 
+<<<<<<< HEAD
 .fdivider{
     border-right: 1px solid #fff;
     height: 200px;}
@@ -342,6 +507,8 @@ span img{
 
 
 
+=======
+>>>>>>> FETCH_HEAD
 
 
 
