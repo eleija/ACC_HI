@@ -145,16 +145,50 @@
 }
 
 .other_affiliate_name_small {
-	color: white;
+	color: black;
 	margin-left: 1rem;
 	margin-top: 1.5rem;
 }
 
+.about_first_paragraph {
+	margin-top: 1em;
+}
 
+.about_second_paragraph {
+	margin-top: 1em;
+}
 
+.contact_section {
+	background-color: #78a3a1;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
 
+.contact_section h3, p, .section {
+	color:  white;
+	margin-top: 1em;
+}
 
+::-webkit-input-placeholder {
+   color: black;
+}
 
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
 
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
 
+:-ms-input-placeholder {  
+   color: black;  
+}
+
+#contact_form_message_textarea {
+	resize: vertical;
+	height: 10rem;
+	max-height: 15rem;
+}
 
