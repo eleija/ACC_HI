@@ -38,3 +38,123 @@
 .row .offset-by-nine 	{ margin-left: 82.7%;  }
 .row .offset-by-ten 	{ margin-left: 91.4%;  }
 /*.row .offset-by-eleven 	{ margin-left: 95.7%;  }*/
+
+.center-text {
+	text-align: center;
+}
+
+.page_title {
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+}
+
+.major_affiliate_row {
+	background-color: #e1e4ea;
+	padding-bottom: 2rem;
+}
+
+.major_affiliate_block {
+}
+
+.major_affiliate_info {
+	background-color: white;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -3px;
+}
+
+.major_affiliate_pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+}
+
+.major_affiliate_name{
+	padding-top: .85rem;
+}
+
+.major_affiliate_hr {
+	border: solid #dddddd;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: .75rem auto 1.1875rem auto;
+	height: 0;
+	width: 85%;
+}
+
+.major_affiliate_description {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	padding-bottom: 1rem;
+}
+
+.ucsd_affiliate_row {
+	background-color: #78a3a1;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+
+.ucsd_affiliate_container {
+	border: 3px solid white;
+}
+
+.ucsd_affiliate_title {
+	color: white;
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+}
+
+.ucsd_affiliate_name {
+	color: white;
+	margin-left: 2.5rem;
+	margin-top: 1.5rem;
+	font-size: 20px;
+}
+
+.ucsd_affiliate_name_small {
+	color: white;
+	margin-left: 1rem;
+	margin-top: 1.5rem;
+}
+
+.other_affiliate_row {
+	background-color: #e1e4ea;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.other_affiliate_container {
+	border: 3px solid black;
+}
+
+.other_affiliate_title {
+	color: black;
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+}
+
+.other_affiliate_name {
+	color: black;
+	margin-left: 2.5rem;
+	margin-top: 1.5rem;
+	font-size: 20px;
+}
+
+.other_affiliate_name_small {
+	color: white;
+	margin-left: 1rem;
+	margin-top: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
