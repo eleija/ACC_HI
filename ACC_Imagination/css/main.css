@@ -57,10 +57,17 @@ p{
     padding-left: 0px;
     padding-right: 0px;
 }
-
+.content{
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+ 
+}
 .logo{
-    width: 350px;
-    padding: 20px; 
+    width: 280px;
+    padding: 20px;
+    padding-top:30px;
 }
 
 .top-bar {
@@ -80,6 +87,8 @@ p{
     padding-bottom: 20px;
 }
 .top-bar-section ul li a{
+    font-family: 'Roboto';
+    letter-spacing: 0.01rem;
     font-size: 14px;
     font-weight: 800;
     text-transform:uppercase;
@@ -103,7 +112,8 @@ p{
 .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
     height: 100px;
     background-color: #c6c0c0;
-    border-right: solid 2px #ede8e8;
+    border-right: solid 1px #ede8e8;
+    margin-right: 20px;
 }
 
 
@@ -183,7 +193,7 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 }
 
 
-.FeaturedBox{ height: 300px;}
+.FeaturedBox{ height: 300px; margin-top: -30px;}
 
 .FeaturedBold{ font-weight: bold; color: #c55d42;}
 
@@ -201,7 +211,9 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 
 .FeaturedHeader{
     font-weight: bold;
-    font-size: 30px;
+    font-family: 'Roboto';
+    letter-spacing: 0.05rem;
+    font-size: 26px;
     color: #7cada9;
 }
 
@@ -215,9 +227,9 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 	text-align: center;
 }
 
-.centeredBoxes{
+/*.centeredBoxes{
     padding-left: 5%;
-}
+}*/
 
 /* ---------- Affiliates Page ---------- */
 
@@ -487,28 +499,7 @@ span img{
 .copyright{
     font-size: 12px;}
 
-<<<<<<< HEAD
-.fdivider{
-    border-right: 1px solid #fff;
-    height: 200px;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
->>>>>>> FETCH_HEAD
 
 
 
