@@ -229,7 +229,13 @@
 	margin-top: 2rem;
 }
 
+.modal_person_name {
+	margin-bottom: 0rem;
+}
 
+.modal_person_job_title {
+	margin-top: 0rem;
+}
 
 
 
