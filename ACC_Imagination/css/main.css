@@ -165,10 +165,10 @@
 	color: white;
 }
 
-.contact_section h3, p, .section {
+/*.contact_section > h3, p {
 	color:  white;
 	margin-top: 1em;
-}
+}*/
 
 ::-webkit-input-placeholder {
    color: black;
@@ -191,4 +191,70 @@
 	height: 10rem;
 	max-height: 15rem;
 }
+
+.people_content {
+	margin-top: 2rem;
+	/*background-color: #dfe1e3;*/
+}
+
+.first_people_container {
+	background-color: #e1e4ea;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.first_people_container > .person_section {
+	margin-top: 2rem;
+}
+
+.people_container {
+	background-color: #e1e4ea;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.tabs dd.active a {
+	background: lightgreen;
+}
+
+.tabs dd a {
+	background: white;
+}
+
+.tabs dd a:hover {
+	background: lightgreen;
+}
+
+.people_content > div > dl {
+	margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
