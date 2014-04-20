@@ -1,3 +1,5 @@
+/* ---------- Global Style Settings ---------- */
+
 .row {
   width: 100%; max-width: 1600px;
   margin: 0 auto;
@@ -42,6 +44,8 @@
 .center-text {
 	text-align: center;
 }
+
+/* ---------- Affiliates Page ---------- */
 
 .page_title {
 	margin-left: 2rem;
@@ -150,6 +154,8 @@
 	margin-top: 1.5rem;
 }
 
+/* ---------- About Page ---------- */
+
 .about_first_paragraph {
 	margin-top: 1em;
 }
@@ -157,6 +163,8 @@
 .about_second_paragraph {
 	margin-top: 1em;
 }
+
+/* ---------- Contact Page ---------- */
 
 .contact_section {
 	background-color: #78a3a1;
@@ -191,6 +199,8 @@
 	height: 10rem;
 	max-height: 15rem;
 }
+
+/* ---------- People Page ---------- */
 
 .people_content {
 	margin-top: 2rem;
