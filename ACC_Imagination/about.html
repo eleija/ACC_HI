@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
     <link rel="stylesheet" href="css/foundation.css" />
+      <link rel="stylesheet" href="css/font-awesome.css" />
     <link rel="stylesheet" href="css/main.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
@@ -72,9 +73,9 @@
    
  <!-- Start Basic About Info -->
  
- <div class="row"> 
+ <div class="row" id="aboutus"> 
  	
- 	<h1>ABOUT</h1>
+ 	<h1 class="about_title">ABOUT</h1>
  	
  	<div class="large-6 large-offset-1 column">
  		<p class="about_first_paragraph">The Clarke Center brings together world class researchers in science, art, humanities, engineering and medicine to develop a new theoretical framework for exploring the basis of imagination. Through a global network of scientific and cultural partners we transfer discoveries from the University to the world beyond.</p>
@@ -204,17 +205,25 @@
    
    <footer class="row">
      <div class="large-12 columns">
-       <hr />
        <div class="row">
          <div class="large-6 columns">
-           <p>© Copyright no one at all. Go to town.</p>
          </div>
          <div class="large-6 columns">
            <ul class="inline-list right">
-             <li><a href="#">Link 1</a></li>
-             <li><a href="#">Link 2</a></li>
-             <li><a href="#">Link 3</a></li>
-             <li><a href="#">Link 4</a></li>
+             <span><a href="index.html"><img src="img/clarkelogo.png"></a></span>
+               <span class="fdivider"></span>
+             <span><a href="#"><img src="img/ucsdlogo.png"></a></span>  
+           </ul>
+         </div>
+       </div>
+          <div class="row" id="otherinfo">
+         <div class="large-6 columns">
+           <span id="links"><a href="#">About</a></span>
+            <span id="links"><a href="#">Contact Us</span>
+         </div>
+         <div class="large-6 columns">
+           <ul class="inline-list right">
+             <li class="copyright">© Copyright 2013 IMAGINATION.UCSD.EDU</li>
            </ul>
          </div>
        </div>

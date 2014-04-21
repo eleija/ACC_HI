@@ -2,10 +2,9 @@
 /* ---------- Global Style Settings ---------- */
 body{
     font-family: 'Roboto';
-    background-color: #000;
 }
 h1{
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 p{
     font-weight: 300;
@@ -74,6 +73,7 @@ p{
 .top-bar {
     height: 100px;
     background-color: #fff;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .top-bar-section{
@@ -82,6 +82,7 @@ p{
 
 .top-bar-section ul {
     background-color: #fff;
+    border-bottom: 1px solid #f0f0f0;
 }
 .top-bar-section ul li{
     padding-top: 10px;
@@ -112,9 +113,9 @@ p{
 }
 
 .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
-    height: 100px;
+    height: 99px;
     background-color: #c6c0c0;
-    border-right: solid 1px #ede8e8;
+    border-right: solid 1px #f0f0f0;
     margin-right: 20px;
 }
 
@@ -195,9 +196,11 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 }
 
 
-.FeaturedBox{ height: 300px; margin-top: -30px;}
+.FeaturedBox{ height: 300px; margin-top: -30px; }
+.FeaturedBox p{
+line-height: 1.8rem;}
 
-.FeaturedBold{ font-weight: bold; color: #c55d42;}
+.FeaturedBold{ margin-left: 0px; font-weight: 500; color: #c55d42;}
 
 .FeaturedButton{
     position: absolute;
@@ -237,19 +240,19 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 
 .page_title {
     font-family: 'Roboto';
-    text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 400;
 	margin-left: 2rem;
 	margin-bottom: 2rem;
 }
 
 .major_affiliate_row {
-	background-color: #f0f0f0;
+	background-color: #fafafa;
 	padding-bottom: 2rem;
+    padding-top: 1rem;
 }
 
 .major_affiliate_block {
-
+background-color: #000;
 }
 
 .major_affiliate_info {
@@ -271,7 +274,10 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 .major_affiliate_name{
 	padding-top: .8rem;
     font-family: 'Roboto';
-    font-size: 1.2em;
+    font-size: 0.9rem;
+    letter-spacing: 0.03rem;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 .major_affiliate_hr {
@@ -285,7 +291,7 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 
 .major_affiliate_description {
 	text-align: left;
-    font-size: 0.85em;
+    font-size: 0.82em;
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
@@ -299,15 +305,15 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 }
 
 .ucsd_affiliate_container {
-	border: 3px solid white;
+	border: 2px solid #68918e;
     padding: 15px;
 }
 
 .ucsd_affiliate_title {
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
+       font-family: 'Roboto';
+    font-weight: 400;
     font-size: 1.8em;
-    font-weight: 500;
+    letter-spacing: 0.04rem;
 	color: white;
 	margin-left: 2rem;
 	margin-bottom: 2rem;
@@ -347,10 +353,9 @@ font-weight: 400;}
 }
 
 .other_affiliate_title {
-    text-transform: uppercase;
-    font-weight: 500;
-    letter-spacing: 0.2rem;
-    font-size: 1.7em;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.8em;
 	color: black;
 	margin-left: 2rem;
 	margin-bottom: 2rem;
@@ -378,7 +383,15 @@ font-weight: 400;}
     color: #333;
 font-weight: 400;}
 /* ---------- About Page ---------- */
-
+#aboutus{
+    background-color: #f5f5f5;}
+.about_title {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-weight: 500;
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+}
 .about_first_paragraph {
 	/*margin-top: 1rem;*/
 }
