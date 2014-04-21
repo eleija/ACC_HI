@@ -88,7 +88,7 @@ p{
 .top-bar-section ul li a{
     font-family: 'Roboto';
     letter-spacing: 0.01rem;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 800;
     text-transform:uppercase;
     background-color: #000;
@@ -97,10 +97,7 @@ p{
 .top-bar-section li:not(.has-form) a:not(.button) {
     background-color: #fff;
     color: #333;
-<<<<<<< HEAD
-    margin-top: 17px;
-=======
-    margin-top: 30px;
+    margin-top: 28px;
 }
 
 .top-bar-section .socialGrid li {
@@ -115,7 +112,6 @@ p{
     background-color:transparent;
     margin: 0px;
     padding: 0px;
->>>>>>> FETCH_HEAD
 }
 
 .mainNav{
