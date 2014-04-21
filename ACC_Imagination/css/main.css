@@ -2,6 +2,7 @@
 /* ---------- Global Style Settings ---------- */
 body{
     font-family: 'Roboto';
+    background-color: #000;
 }
 h1{
     font-size: 2.5rem;
@@ -71,7 +72,7 @@ p{
 }
 
 .top-bar {
-    height: 90px;
+    height: 100px;
     background-color: #fff;
 }
 
@@ -92,12 +93,13 @@ p{
     font-size: 14px;
     font-weight: 800;
     text-transform:uppercase;
+    background-color: #000;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
     background-color: #fff;
     color: #333;
-    margin-top: 20px;
+    margin-top: 17px;
 }
 
 .mainNav{
@@ -118,7 +120,7 @@ p{
 
 
 .top-bar-section > ul > .rightNav{
-    width: 200 px;
+    width: 200px;
 }
 
 .small-block-grid-4{
@@ -189,7 +191,7 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 .top-bar-section .socialGrid .fa{
     padding: 0px;
     padding-top:5px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 
@@ -464,8 +466,7 @@ font-weight: 400;}
 /* ---------- People Page ---------- */
 
 .people_content {
-	margin-top: 2rem;
-	/*background-color: #dfe1e3;*/
+	background-color: #dfe1e3;
 }
 
 .first_people_container {
