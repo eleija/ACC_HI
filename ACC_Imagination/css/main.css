@@ -244,11 +244,6 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 .major_affiliate_row {
 	background-color: #f0f0f0;
 	padding-bottom: 2rem;
-<<<<<<< HEAD
-	
-=======
-    
->>>>>>> FETCH_HEAD
 }
 
 .major_affiliate_block {
@@ -383,11 +378,51 @@ font-weight: 400;}
 /* ---------- About Page ---------- */
 
 .about_first_paragraph {
+	/*margin-top: 1rem;*/
+}
+
+.about_second_paragraph_title {
 	margin-top: 1rem;
 }
 
-.about_second_paragraph {
+.about_contact_us {
 	margin-top: 1rem;
+}
+
+.about_second_paragraph_item {
+	margin-bottom: .75rem;
+}
+
+.about_clarke_bldg_img {
+	margin-top: .6rem;
+}
+
+.spotlight_project_row {
+	margin-top: 2rem;
+	background-color: #7cada9;
+}
+
+.spotlight_project_row .spotlight_project_container {
+	border: 3px solid white;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.spotlight_project_thumbnail, .spotlight_project_title {
+	margin-top: 15px;
+}
+
+.spotlight_project_thumbs {
+	padding-top: 20px;
+}
+
+.spotlight_project_read_more {
+	text-align: right;
+}
+
+.spotlight_project_area_title, .more_info_title {
+	/*color: white;*/
+	margin-top: 2rem;
 }
 
 /* ---------- Contact Page ---------- */
