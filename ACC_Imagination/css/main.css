@@ -508,6 +508,12 @@ font-weight: 400;}
 	margin-top: 0rem;
 }
 
+.full_profile_link {
+	color: red;
+	font-size: 12px;
+	float: right;
+}
+
 
 /* ---------- Footer ---------- */
 footer{
