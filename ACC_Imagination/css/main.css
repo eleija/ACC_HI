@@ -788,22 +788,40 @@ span img{
 }
 
 /*PUBLICATIONS*/
-.pubTitle{
+.publications{
+    width: 75%;
+}
+
+.publications span{
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 25px;
+}
+.publications .pubAbstract .pubLabel{
+    font-weight: 400;
+}
+.publications .pubTitle{
+    font-weight: 400;
     font-size: 22px;
 }
+.pubJournal{
+    display: inline-block;
+}
+.pubJournalDetails{
+    display: inline-block;
+}
 .pubYear{
-    font-size: 12px;
     display: inline-block;
 }
 .pubAuthor{
-    font-size: 16px;
-    display: block;
-}
-.pubJournal{
-    font-size: 16px;
     display: block;
 }
 .pubAbstract{
     font-size: 16px; 
     display: block;
+    width: 75%;
+}
+
+.pubLines{
+    width: 90%;
 }
