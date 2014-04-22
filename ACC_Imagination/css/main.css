@@ -222,13 +222,12 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 }
 
 
-/*<<<<<<< HEAD*/
 .FeaturedBox{ height: 300px; margin-top: -30px; }
 .FeaturedBox p{
 line-height: 1.8rem;}
 
 .FeaturedBold{ margin-left: 0px; font-weight: 500; color: #c55d42;}
-/*=======*/
+
 .threeBlocks{
     height: 300px;
     width: 80%;
@@ -239,7 +238,6 @@ line-height: 1.8rem;}
 }
 
 .FeaturedBold{ font-weight:500; color: #c55d42;}
-/*>>>>>>> FETCH_HEAD*/
 
 .FeaturedButton{
 /*    position: absolute;*/
@@ -292,29 +290,6 @@ line-height: 1.8rem;}
     color: #fff;
 }
 
-/*
-.top-bar-section ul li > button {
-    background: #333;
-	color: #fff;
-	border-radius: 7px;
-	box-shadow: 0 5px #7cada9;
-	padding: 20px 30px 30px 30px;
-    width: 200px;
-    position: relative;
-    font-size: 16px;
-    letter-spacing: 0.25rem;
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 10px;
-}
-
-.top-bar-section ul li > button:hover {
-    background: #7cada9;
-    color: #333;
-}
-*/
-
-
 /*Buttons*/
 .btn-7 {
 	background: #333;
@@ -361,8 +336,9 @@ line-height: 1.8rem;}
 	animation: moveToRight 0.5s;
 }
 
+/*
 @-webkit-keyframes fadeOutText {
-	0% { color: transparent; }
+	0% { color: transparent; } 
 	80% { color: transparent; }
 	100% { color: #fff; }
 }
@@ -405,6 +381,7 @@ line-height: 1.8rem;}
 	84% { opacity: 1; transform: translateX(-50%);  }
 	100% { transform: translateX(0%); }
 }
+*/
 
 .medium-block-grid-4 > li{
     font-family: 'Roboto';
@@ -810,6 +787,7 @@ span img{
 	margin-bottom: 15px;
 }
 
+<<<<<<< HEAD
 /* -------- Single Project page ---------- */
 
 /*.topicBriefInfo {
@@ -837,4 +815,43 @@ span img{
 	padding: 1.22rem;
 	background: #f2f2f2;
 }*/
+=======
+/*PUBLICATIONS*/
+.publications{
+    width: 75%;
+}
 
+.publications span{
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 25px;
+}
+.publications .pubAbstract .pubLabel{
+    font-weight: 400;
+}
+.publications .pubTitle{
+    font-weight: 400;
+    font-size: 22px;
+}
+.pubJournal{
+    display: inline-block;
+}
+.pubJournalDetails{
+    display: inline-block;
+}
+.pubYear{
+    display: inline-block;
+}
+.pubAuthor{
+    display: block;
+}
+.pubAbstract{
+    font-size: 16px; 
+    display: block;
+    width: 75%;
+}
+>>>>>>> FETCH_HEAD
+
+.pubLines{
+    width: 90%;
+}
