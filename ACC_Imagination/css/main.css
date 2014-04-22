@@ -235,7 +235,7 @@ line-height: 1.8rem;}
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
-    padding-left: 30px;
+    padding-left: 7%;
 }
 
 .FeaturedBold{ font-weight:500; color: #c55d42;}
@@ -272,9 +272,29 @@ line-height: 1.8rem;}
 	text-align: center;
 }
 
-/*Top Bar Button
+/*Top Bar Button*/
+    .top-bar-section ul li > button {
+    background: #fff;
+    color: #333;
+    border-radius: 7px;
+    box-shadow: 0 5px #fff;
+    padding: 15px 30px 15px 30px;
+    width: 200px;
+    position: relative;
+    font-size: 16px;
+    letter-spacing: 0.25rem;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+.top-bar-section ul li > button:hover {
+    background: #333;
+    color: #fff;
+}
+
+/*
 .top-bar-section ul li > button {
-	background: #333;
+    background: #333;
 	color: #fff;
 	border-radius: 7px;
 	box-shadow: 0 5px #7cada9;
@@ -291,7 +311,8 @@ line-height: 1.8rem;}
 .top-bar-section ul li > button:hover {
     background: #7cada9;
     color: #333;
-}*/
+}
+*/
 
 
 /*Buttons*/
@@ -394,19 +415,20 @@ line-height: 1.8rem;}
     font-family: 'Roboto';
 }
 
-
 /*STANFORD EVENT*/
 h3 {
     font-size: 1.110rem;
 }
 
-h3{text-decoration:underline}
-#event-list{height: 115px;}
+#event-list{height: 115px; padding-left: 5px; font-family: 'Roboto'}
 #event-list h3,#event-list h4{font-size:16px;margin-bottom:0}
-#event-list .event-date{vertical-align:top;width:60px;padding-right:15px}
-#event-list .event-date .event-month{padding-left:3px;font-weight:400;font-size:1.1em;text-transform:uppercase;display:block;text-align:center;line-height:1.1;letter-spacing:1px}
-#event-list .event-date .event-day{font-weight:200;display:block;text-align:center;font-size:2.2em;color:#820000;line-height:.8}
-#event-list .more-link{padding-left:57px}
+#event-list .event-date{vertical-align:top;width:60px;padding-right:5px}
+#event-list .event-date .event-month{padding-top:5px;padding-left:5px;font-weight:300;font-size:1.0em;text-transform:uppercase;display:block;text-align:center;line-height:1.1;letter-spacing:1px}
+#event-list .event-date .event-day{font-weight:100;display:block;text-align:center;font-size:1.1em;color:#820000;line-height:1.5}
+
+.su-link{color:#c55d42; text-decoration:none;}
+.su-link:hover{color:#c55d42; text-decoration:underline;}
+
 
 
 /* ---------- Affiliates Page ---------- */
@@ -706,13 +728,19 @@ font-weight: 400;}
 footer{
     background-color: #333;
     height: 7.4rem;
-    padding-top: 30px;
+    padding-top: 20px;
 }
-footer a{
+
+footer .links{
+    margin-left: 15px;
+}
+
+footer .links a{
     color: white;
     font-size: 14px;
 }
-footer a:hover{
+
+footer .links a:hover{
     color: #813c2a;
 }
 
@@ -720,14 +748,23 @@ footer a:hover{
     padding-top:10px;
     background-color: #c55d42;
 }
+
+/*
 span{
     margin-left: 15px;}
 span img{
     margin-bottom: 10px;}
+*/
 
-#links{
-    margin-left: 15px;
+.footImg{
+    margin-bottom: 15px;}
 }
+
+.footImg img{
+    margin-bottom: 10px;}
+}
+
+
 .copyright{
     font-size: 12px;}
 
