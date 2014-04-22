@@ -222,13 +222,13 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 }
 
 
-<<<<<<< HEAD
+/*<<<<<<< HEAD*/
 .FeaturedBox{ height: 300px; margin-top: -30px; }
 .FeaturedBox p{
 line-height: 1.8rem;}
 
 .FeaturedBold{ margin-left: 0px; font-weight: 500; color: #c55d42;}
-=======
+/*=======*/
 .threeBlocks{
     height: 300px;
     width: 80%;
@@ -239,7 +239,7 @@ line-height: 1.8rem;}
 }
 
 .FeaturedBold{ font-weight:500; color: #c55d42;}
->>>>>>> FETCH_HEAD
+/*>>>>>>> FETCH_HEAD*/
 
 .FeaturedButton{
 /*    position: absolute;*/
