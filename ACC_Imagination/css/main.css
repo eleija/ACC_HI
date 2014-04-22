@@ -768,7 +768,46 @@ span img{
 .copyright{
     font-size: 12px;}
 
+/* -------- Project List Page ---------- */
 
+.project_list_project_hr {
+	border: solid #dddddd;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: .2rem 0 1rem;
+	height: 0;
+}
 
+.project_list_read_more {
+	margin-bottom: 0px;
+	text-align: right;
+}
+
+.project_list_project_description {
+	margin-bottom: 0px;
+}
+
+.project_list_project_title {
+	margin-top: 20px;
+	margin-bottom: 2px;
+}
+
+.project_list_project_div {
+	border: 1px solid black;
+	margin-bottom: 15px;
+}
+
+.project_list_project_thumbnail {
+	padding-top: 15px;
+}
+
+.project_list_project_thumbs {
+	margin-top: 15px;
+	margin-bottom: -7px;
+}
+
+.row .project_list_project_div {
+	margin-bottom: 15px;
+}
 
 
