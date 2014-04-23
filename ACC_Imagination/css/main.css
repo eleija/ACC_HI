@@ -787,7 +787,7 @@ span img{
 	margin-bottom: 15px;
 }
 
-<<<<<<< HEAD
+
 /* -------- Single Project page ---------- */
 
 /*.topicBriefInfo {
@@ -803,10 +803,6 @@ span img{
 	margin-bottom: 0px;
 }
 
-.topicBriefInfo > h4 {
-	margin-top: 0px;
-}
-
 /*.topicFullInfo {
 	border-style: solid;
 	border-width: 1px;
@@ -815,7 +811,7 @@ span img{
 	padding: 1.22rem;
 	background: #f2f2f2;
 }*/
-=======
+
 /*PUBLICATIONS*/
 .publications{
     width: 75%;
@@ -850,8 +846,17 @@ span img{
     display: block;
     width: 75%;
 }
->>>>>>> FETCH_HEAD
 
 .pubLines{
     width: 90%;
+}
+
+.team_hr {
+	margin-top: 0rem;
+	margin-bottom: 1rem;
+}
+
+.team_title {
+	margin-bottom: .65rem;
+	margin-top: -7px;
 }
