@@ -76,6 +76,7 @@ p{
     height: 100px;
     background-color: #fff;
     border-bottom: 1px solid #f0f0f0;
+    overflow: hidden;
 }
 
 .top-bar-section{
@@ -912,6 +913,7 @@ span img{
 
 .pubLines{
     width: 90%;
+    margin: .30rem 0 1.65rem;
 }
 
 .team_hr {
