@@ -290,27 +290,48 @@ line-height: 1.8rem;}
     color: #fff;
 }
 
-/*Buttons*/
-.btn-7 {
-	background: #333;
-	color: #fff;
-	border-radius: 7px;
-	box-shadow: 0 5px #7cada9;
-	padding: 15px 30px 15px 30px;
-    width: 300px;
+#about_us > div > a > button {
+    background: #fff;
+    color: #333;
+    border-radius: 7px;
+    box-shadow: 0 5px #fff;
+    padding: 15px 30px 15px 30px;
+    width: 200px;
     position: relative;
     font-size: 16px;
-    letter-spacing: 0.2rem;
-    margin-top: 30px;
+    letter-spacing: 0.25rem;
+    margin-top: 20px;
     margin-left: 20px;
+    margin-right: 15px;
+}
+#about_us > div ul li > button:hover {
+    background: #333;
+    color: #fff;
+}
+
+
+/*Buttons*/
+.btn-7 {
+	background: transparent;
+	color: #333;
+	border-radius: 7px;
+	/*box-shadow: 0 5px #fff;*/
+	padding: 15px 30px 15px 30px;
+	width: 200px;
+	position: relative;
+	font-size: 16px;
+	letter-spacing: 0.25rem;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 15px;
 }
 
 .btn-7:hover {
-    background: #7cada9;
-    color: #333;
+    background: #333;
+    color: #fff;
 }
 
-/* Button 7a */
+/* Button 7a 
 .btn-7a {
 	overflow: hidden;
 }
@@ -554,9 +575,18 @@ font-weight: 400;}
 .other_affiliate_name a:hover{
     color: #333;
 font-weight: 400;}
+
 /* ---------- About Page ---------- */
-#aboutus{
-    background-color: #f5f5f5;}
+
+#about_contribute {
+	width: 100%;
+	margin: 0px;
+}
+
+#aboutus {
+    background-color: #f5f5f5;
+}
+
 .about_title {
     font-family: 'Roboto';
     text-transform: uppercase;
