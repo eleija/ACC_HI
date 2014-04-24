@@ -754,10 +754,13 @@ font-weight: 400;}
 	float: right;
 }
 
+<<<<<<< HEAD
 .role {
 	font-size: 11px;
 }
 
+=======
+>>>>>>> FETCH_HEAD
 /*FOOTER*/
 .foot1{
     background-color: #333;
@@ -767,9 +770,7 @@ font-weight: 400;}
     margin-top: 20px;
     float: right;
 }
-#ucsdLogo{
-    padding-left: 20px;
-}
+
 .foot2{
     background-color: #c55d42;
     padding: 20px 0px 2px 0px;
@@ -793,7 +794,10 @@ font-weight: 400;}
 }
 .copyright{font-size: 12px; margin-top: -5px;}
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> FETCH_HEAD
 .subheader {
 	font-size: 12px;
 }
@@ -802,7 +806,10 @@ font-weight: 400;}
 	margin-top: 2rem;
 	
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> FETCH_HEAD
 
 /* ---------- Footer ---------- 
 footer{
