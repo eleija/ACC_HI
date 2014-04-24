@@ -733,6 +733,11 @@ font-weight: 400;}
 	float: right;
 }
 
+.subheader {
+	font-size: 12px;
+	
+	
+}
 
 /* ---------- Footer ---------- */
 footer{
