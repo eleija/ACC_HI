@@ -483,6 +483,12 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 	margin-bottom: 2rem;
 }
 
+.affiliateLogo{
+    height: 200px;
+    
+    padding-top: 15%;
+}
+
 .major_affiliate_row {
 	background-color: #fafafa;
 	padding-bottom: 2rem;
