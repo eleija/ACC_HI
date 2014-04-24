@@ -725,6 +725,10 @@ font-weight: 400;}
 
 /* ---------- People Page ---------- */
 
+.person_section {
+	background-color: red;
+}
+
 .people_content {
 	background-color: #dfe1e3;
 }
@@ -1026,4 +1030,8 @@ span img{
 .team_title {
 	margin-bottom: .65rem;
 	margin-top: 2.5rem;
+}
+
+.zubydooby_orbit_fit_peeps {
+	padding: 0px 36px 0px 36px;
 }
