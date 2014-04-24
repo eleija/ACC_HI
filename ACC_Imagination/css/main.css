@@ -990,6 +990,16 @@ span img{
     padding-top: 5px; 
 }
 
+ a.showLink, a.hideLink {
+      text-decoration: none;
+/*      color: #36f;*/
+/*      padding-left: 8px;*/
+      background: transparent url(down.gif) no-repeat left; 
+ }
+.more {
+      display: none;
+}
+
 .accordion dd > a {
     background: transparent;
     color: #c55d42;
