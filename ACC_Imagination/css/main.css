@@ -3,6 +3,14 @@
 body{
     font-family: 'Roboto';
 }
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto 0.4rem;
+}
+
 h1{
     font-size: 1.8rem;
 }
@@ -76,7 +84,6 @@ p{
     height: 100px;
     background-color: #fff;
     border-bottom: 1px solid #f0f0f0;
-    overflow: hidden;
 }
 
 .top-bar-section{
@@ -85,7 +92,6 @@ p{
 
 .top-bar-section ul {
     background-color: #fff;
-    border-bottom: 1px solid #f0f0f0;
 }
 
 .top-bar-section ul li a{
@@ -104,10 +110,11 @@ p{
 }
 
 .top-bar-section .socialGrid li {
-     color: #fff;
+    color: #fff;
     padding: 3px;
     padding-left: 5px;
     padding-right: 5px;
+    height: 50px;
 }
 
 .top-bar-section .socialGrid li:not(.has-form) a:not(.button) {
@@ -116,6 +123,12 @@ p{
     margin: 0px;
     padding: 0px;
 }
+/*
+
+ul.small-block-grid-4.right.socialGrid{
+    height: 10px;
+}
+*/
 
 .mainNav{
     margin-left: 25px;
@@ -132,7 +145,6 @@ p{
     border-right: solid 1px #f0f0f0;
     margin-right: 20px;
 }
-
 
 .top-bar-section > ul > .rightNav{
     width: 200px;
@@ -179,7 +191,7 @@ p{
 
 /*Slider*/
 .hero { width: 100%; position: relative; overflow: hidden;  }
-.hero-carousel article { width: 960px; height: 480px; margin: 0 auto; display: block; float: left; position: relative; 
+.hero-carousel article { width: 960px; height: 400px; margin: 0 auto; display: block; float: left; position: relative; 
 /*opacity:.6; -webkit-transition: opacity .5s ; -moz-transition: background-color .5s ; -ms-transition: opacity .5s ; -o-transition: opacity .5s ; transition: opacity .5s ;*/ }
 .hero-carousel article img{ position: absolute; max-width: 960px; top: 0; left: 0; z-index: 1; }
 .hero-carousel article .contents { position: relative; z-index: 2; top: 72px; left: 48px; list-style: none; color: #000; width: 556px; padding: 20px;
@@ -224,30 +236,32 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
     font-size: 15px;
 }
 
-
-.FeaturedBox{ height: 300px; margin-top: -30px; }
-.FeaturedBox p{
-line-height: 1.8rem;}
-
 .FeaturedBold{ margin-left: 0px; font-weight: 500; color: #c55d42;}
 
 .threeBlocks{
-    height: 300px;
+    height: 340px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
-    padding-left: 7%;
+    padding: 30px 0px 0px 5%;
+    display: block;
 }
 
 .FeaturedBold{ font-weight:500; color: #c55d42;}
 
+.featuredColumn{
+    height: 188px;
+    display: block;
+    position: relative;
+}
+
+.featuredColumn p{font-size: 15px;}
+
 .FeaturedButton{
-/*    position: absolute;*/
-    bottom: -50px;
+    position: relative;
     background-color: #c55d42;
     text-transform:uppercase;
-    font-weight: bold;
 }
 
 .FeaturedButton:hover{
@@ -258,11 +272,13 @@ line-height: 1.8rem;}
     font-weight: bold;
     font-family: 'Roboto';
     letter-spacing: 0.05rem;
-    font-size: 26px;
+    font-size: 24px;
     color: #7cada9;
-    text-align:justify;
 }
 
+#eventLine{
+    width:270px; margin-top:-5px; margin-bottom:10px;
+}
 .fa{font-weight: bold} 
 
 .fa-angle-right{
@@ -416,11 +432,7 @@ line-height: 1.8rem;}
     font-family: 'Roboto';
 }
 
-/*STANFORD EVENT*/
-h3 {
-    font-size: 1.110rem;
-}
-
+/*UPCOMING EVENTS*/
 #event-list{height: 115px; padding-left: 5px; font-family: 'Roboto'}
 #event-list h3,#event-list h4{font-size:16px;margin-bottom:0}
 #event-list .event-date{vertical-align:top;width:60px;padding-right:5px}
@@ -733,12 +745,49 @@ font-weight: 400;}
 	float: right;
 }
 
+/*FOOTER*/
+.foot1{
+    background-color: #333;
+    height: 5.4rem;
+}
+.foot1 img{
+    margin-top: 20px;
+    float: right;
+}
+#ucsdLogo{
+    padding-left: 20px;
+}
+.foot2{
+    background-color: #c55d42;
+    padding: 20px 0px 2px 0px;
+}
+.foot2 ul{
+    list-style-type:none;
+}
+.foot2 ul li{
+    float: left;
+    padding-left: 15px;
+    text-decoration: none;
+    margin-top: -15px;
+}
+.foot2 ul li a{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+.foot2 ul li a:hover{
+    color: #813c2a;
+}
+.copyright{font-size: 12px; margin-top: -5px;}
 
-/* ---------- Footer ---------- */
+
+/* ---------- Footer ---------- 
 footer{
     background-color: #333;
     height: 7.4rem;
     padding-top: 20px;
+    bottom: 0px;
+    display: block;
 }
 
 footer .links{
@@ -764,7 +813,6 @@ span{
     margin-left: 15px;}
 span img{
     margin-bottom: 10px;}
-*/
 
 .footImg{
     margin-bottom: 15px;}
@@ -775,8 +823,7 @@ span img{
 }
 
 
-.copyright{
-    font-size: 12px;}
+*/
 
 /* -------- Project List Page ---------- */
 
