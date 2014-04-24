@@ -745,6 +745,7 @@ font-weight: 400;}
 	float: right;
 }
 
+<<<<<<< HEAD
 /*FOOTER*/
 .foot1{
     background-color: #333;
@@ -780,6 +781,13 @@ font-weight: 400;}
 }
 .copyright{font-size: 12px; margin-top: -5px;}
 
+=======
+.subheader {
+	font-size: 12px;
+	
+	
+}
+>>>>>>> FETCH_HEAD
 
 /* ---------- Footer ---------- 
 footer{
