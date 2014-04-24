@@ -417,9 +417,6 @@ line-height: 1.8rem;}
 }
 
 /*STANFORD EVENT*/
-h3 {
-    font-size: 1.110rem;
-}
 
 #event-list{height: 115px; padding-left: 5px; font-family: 'Roboto'}
 #event-list h3,#event-list h4{font-size:16px;margin-bottom:0}
@@ -735,7 +732,10 @@ font-weight: 400;}
 
 .subheader {
 	font-size: 12px;
-	
+}
+
+.full_profile_projectspubs, .full_profile_bio_section {
+	margin-top: 2rem;
 	
 }
 
@@ -850,7 +850,12 @@ span img{
 	background: #f2f2f2;
 }*/
 
-/*PUBLICATIONS*/
+.project_container {
+	margin-top: 2rem;
+}
+
+/* ---------- Publications ---------- */
+
 .publications{
     width: 100%;
     padding-left: 24px
@@ -928,5 +933,5 @@ span img{
 
 .team_title {
 	margin-bottom: .65rem;
-	margin-top: -7px;
+	margin-top: 2.5rem;
 }
