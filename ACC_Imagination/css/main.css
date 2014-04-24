@@ -754,7 +754,6 @@ font-weight: 400;}
 	float: right;
 }
 
-<<<<<<< HEAD
 /*FOOTER*/
 .foot1{
     background-color: #333;
@@ -764,9 +763,7 @@ font-weight: 400;}
     margin-top: 20px;
     float: right;
 }
-#ucsdLogo{
-    padding-left: 20px;
-}
+
 .foot2{
     background-color: #c55d42;
     padding: 20px 0px 2px 0px;
@@ -790,7 +787,6 @@ font-weight: 400;}
 }
 .copyright{font-size: 12px; margin-top: -5px;}
 
-=======
 .subheader {
 	font-size: 12px;
 }
@@ -799,7 +795,6 @@ font-weight: 400;}
 	margin-top: 2rem;
 	
 }
->>>>>>> FETCH_HEAD
 
 /* ---------- Footer ---------- 
 footer{
