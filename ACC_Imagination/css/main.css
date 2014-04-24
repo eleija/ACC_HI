@@ -432,16 +432,7 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
     font-family: 'Roboto';
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-/*STANFORD EVENT*/
-
-=======
 /*UPCOMING EVENTS*/
->>>>>>> FETCH_HEAD
-=======
-/*UPCOMING EVENTS*/
->>>>>>> FETCH_HEAD
 #event-list{height: 115px; padding-left: 5px; font-family: 'Roboto'}
 #event-list h3,#event-list h4{font-size:16px;margin-bottom:0}
 #event-list .event-date{vertical-align:top;width:60px;padding-right:5px}
@@ -754,13 +745,12 @@ font-weight: 400;}
 	float: right;
 }
 
-<<<<<<< HEAD
+
 .role {
 	font-size: 11px;
 }
 
-=======
->>>>>>> FETCH_HEAD
+
 /*FOOTER*/
 .foot1{
     background-color: #333;
@@ -794,10 +784,7 @@ font-weight: 400;}
 }
 .copyright{font-size: 12px; margin-top: -5px;}
 
-<<<<<<< HEAD
 
-=======
->>>>>>> FETCH_HEAD
 .subheader {
 	font-size: 12px;
 }
@@ -806,10 +793,7 @@ font-weight: 400;}
 	margin-top: 2rem;
 	
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> FETCH_HEAD
 
 /* ---------- Footer ---------- 
 footer{
@@ -923,6 +907,10 @@ span img{
 }*/
 
 .project_container {
+	margin-top: 2rem;
+}
+
+.project_page_section_header {
 	margin-top: 2rem;
 }
 
