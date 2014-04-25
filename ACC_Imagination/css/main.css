@@ -635,7 +635,7 @@ font-weight: 400;}
 }
 
 #aboutus {
-    background-color: #f5f5f5;
+/*    background-color: #f5f5f5;*/
 }
 
 .about_title {
@@ -668,10 +668,30 @@ font-weight: 400;}
 .spotlight_project_row {
 	margin-top: 2rem;
 	background-color: #7cada9;
+    color: #fff;
+}
+
+.spotlight_project_row h3{
+        color: #fff;
+    font-weight: 500;
+}
+
+.spotlight_project_row h4{
+        color: #fff;
+    font-weight: 300;
+}
+
+.spotlight_project_row a{
+        color: #b76550;
+    font-weight: 300;
+}
+
+.spotlight_project_row a:hover{
+    text-decoration: underline;
 }
 
 .spotlight_project_row .spotlight_project_container {
-	border: 3px solid white;
+/*	border: 3px solid white;*/
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
