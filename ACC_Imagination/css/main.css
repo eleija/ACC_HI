@@ -1249,6 +1249,8 @@ span img{
     font-size: 5em;
     font-family: 'Roboto';
     text-align: center; 
+    letter-spacing: .2em;
+    font-weight: 300;
 }
 
 .contributeBlocks {
