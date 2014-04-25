@@ -1195,3 +1195,90 @@ span img{
 	background-color: ghostwhite;
 
 }
+
+/* ---------- CONTRIBUTE ----------*/
+
+.contributeContent .threeBlocks{
+    height: 10%;
+    width: 90%;
+    left: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding: 30px 0px 0px 5%;
+    display: block;
+}
+
+.contributeContent .threeBlocks p{
+    height: 10%;
+    width: 60%;
+    left: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding: 30px 0px 0px 5%;
+    display: block;
+
+}
+
+
+.contributeContent .threeBlocks a{
+  color:#c55d42;
+}
+
+.contributeContent .threeBlocks a:hover{
+    text-decoration: underline;
+}
+
+.contributeImage{
+    height: 450px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../img/SME/SMEfront.jpg'); 
+    z-index: 0px;
+}
+
+
+.contributeHeader h1{
+    color: #fff;
+    position: fixed;
+    top: 25%;
+    left: 35%;z-index: 0px;
+    font-size: 5em;
+    font-family: 'Roboto';
+    text-align: center; 
+}
+
+.contributeBlocks {
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+.contributeBlocks h3{
+    font-size: 1.5175rem;
+}
+
+.contributeBlocks a{
+    color:#c55d42;
+}
+
+.contributeBlocks a:hover{
+    text-decoration: underline;
+}
+
+/* Mobile Parallax Photo */
+@media (max-width: 650px) {
+    .contributeHeader h1{
+        color: #fff;
+        position: fixed;
+        top: 30%;
+        left: 25%;
+        z-index: 0px;
+        font-size: 3em;
+        }
+    .contributeImage{
+        height: 350px;
+    }
+}
+
