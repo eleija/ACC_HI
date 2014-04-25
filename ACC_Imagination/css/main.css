@@ -1189,6 +1189,7 @@ span img{
     left: 50%;
     margin-left: -4px;
 }
+
 /* ---------- Programs ---------- */
 
 .slider_background {
@@ -1196,6 +1197,7 @@ span img{
 
 }
 
+<<<<<<< HEAD
 /* ---------- CONTRIBUTE ----------*/
 
 .contributeContent .threeBlocks{
@@ -1282,3 +1284,33 @@ span img{
     }
 }
 
+=======
+/* ---------- News & Events ---------- */
+
+.news_title {
+	font-weight: bold;
+	font-family: 'Roboto';
+	letter-spacing: 0.05rem;
+	font-size: 24px;
+	color: #7cada9;
+	margin-bottom: 0px;
+}
+
+.news_subtitle {
+	font-family: 'Roboto';
+	font-weight: lighter;
+	
+}
+
+.news_location {
+	margin-top: .85rem;
+}
+
+.news_description {
+	
+}
+
+.news_read_more {
+	margin-bottom: 2rem;
+}
+>>>>>>> FETCH_HEAD
