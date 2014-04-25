@@ -1137,6 +1137,7 @@ span img{
 	padding: 0px 36px 0px 36px;
 }
 
+<<<<<<< HEAD
 .zubydooby_orbit_fit_peeps .panel {
     border-style: solid;
     border-width: 1px;
@@ -1168,4 +1169,10 @@ span img{
     border-left-color: #333;
     left: 50%;
     margin-left: -4px;
+=======
+/* ---------- Programs ---------- */
+
+.slider_background {
+	background-color: ghostwhite;
+>>>>>>> FETCH_HEAD
 }

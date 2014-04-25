@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/font-awesome.css" />
     <link rel="stylesheet" href="css/component.css" />
+    <link rel="stylesheet" href="css/nivo-lightbox.css" type="text/css" />
+    <link rel="stylesheet" href="css/themes/default/default.css" type="text/css" />
     <link rel="stylesheet" href="css/main.css" />
     <script src="js/vendor/modernizr.js"></script>
+    
       
   </head>
   <body>
@@ -85,7 +88,7 @@
  
 <div class="row">
 
-    <div class="large-8 large-offset-3 medium-12 column">
+    <div class="large-8 large-offset-2 medium-12 medium-offset-2 column">
 
     	<div class="row">
     	
@@ -156,7 +159,8 @@
                         <div class="row project_list_project_div"> <!-- Begin Project -->
                         
                           <div class="large-3 medium-3 column project_list_project_thumbnail"> 
-                            <img src="http://placehold.it/250x250&text=Thumbnail">
+                            <!--<img src="http://placehold.it/250x250&text=Thumbnail">-->
+                            <a href="https://www.youtube.com/watch?v=RUYdUvyQ0ts" title="This is a video title." data-lightbox-gallery="gallery1"><img src="http://placehold.it/250x250&text=Thumbnail"></a>
                           </div>
             
                           <div class="large-6 medium-6 column">
@@ -168,10 +172,28 @@
             
                           <div class="large-3 medium-3 column project_list_project_thumbs">
                             <ul class="small-block-grid-2">
-                              <li><a href="#"><img src="http://placehold.it/100x100" /></a></li>
-                              <li><a href="#"><img src="http://placehold.it/100x100" /></a></li>
-                              <li><a href="#"><img src="http://placehold.it/100x100" /></a></li>
-                              <li><a href="#"><img src="http://placehold.it/100x100" /></a></li>
+                              
+                              <!-- See Nivo Jquery LightBox Docs for more info. the href="" in the <a> tag links to the full size image. The img src="" links to the thumbnail. These should be 100px x 100px. datal-lightbox-galley ="" will tie together any images or video content into a gallery (i.e. each project = a different gallery). title="" is the caption that shows. Here's a snippet of code below:
+                                   
+                                   <a href="image1_large.jpg" data-lightbox-gallery="gallery1">
+                                       <img src="image1_thumb.jpg" alt="" />
+                                   </a>
+                                   <a href="image2_large.jpg" data-lightbox-gallery="gallery1">
+                                       <img src="image2_thumb.jpg" alt="" />
+                                   </a>
+                                   <a href="image3_large.jpg" data-lightbox-gallery="gallery1">
+                                       <img src="image3_thumb.jpg" alt="" />
+                                   </a>  -->
+                             
+                              
+                              <li><a href="http://www.uarts.edu/sites/default/files/imagecache/spotlight_large/images/studio-spotlight/students4_springconcert2013_dance.jpg" title="This is an image title." data-lightbox-gallery="gallery1"><img src="http://www.uarts.edu/sites/default/files/imagecache/thumbnail/images/students25_springconcert2013_dance.jpg" /></a></li>
+                              
+                              <li><a href="http://www.uarts.edu/sites/default/files/imagecache/spotlight_large/images/studio-spotlight/students8_springconcert2013_dance.jpg" title="This is an image title." data-lightbox-gallery="gallery1"><img src="http://www.laweekly.com/imager/b/square/4528631/9ca1/ParsonsDance.JPG" /></a></li>
+                              
+                              <li><a href="http://philadelphiadance.org/blog/wp-content/uploads/2014/02/Metropolitan-Ballet-Company-in-Fieldwork-2013-Choreography-by-Sarah-Mettin-Photo-by-E.A.-Kennedy-III.jpg" title="This is an image title." data-lightbox-gallery="gallery1"><img src="http://www.wweek.com/portland/imgs/media.images/16348/ap+pk_harmonie.t2.jpg" /></a></li>
+                              
+                              <li><a href="http://www.uarts.edu/sites/default/files/imagecache/spotlight_large/images/studio-spotlight/students2_springconcert2013_dance.jpg" title="This is an image title." data-lightbox-gallery="gallery1"><img src="http://www.uarts.edu/sites/default/files/imagecache/thumbnail/images/dance_program_photocrop.jpg" /></a></li>
+                              
                             </ul>
                           </div>
                         
@@ -276,7 +298,10 @@
     <script>
       $(document).foundation();
     </script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+    <script>
+    	window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')
+    </script>
+    <script src="js/nivo-lightbox.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script>//on document ready
@@ -324,5 +349,12 @@
 				classie.add( document.querySelector( '#trash-effect' ), 'trash-effect-active' );
 			}, false );
 		</script>
+		
+		<script>
+		$(document).ready(function(){
+		    $('a').nivoLightbox();
+		});
+		</script>
+		
   </body>
 </html>
