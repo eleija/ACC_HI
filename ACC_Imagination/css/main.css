@@ -358,6 +358,45 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
     color: #fff;
 }
 
+.aboutImage{
+    height: 450px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../img/SME/pano.jpg'); 
+    z-index: 0px;
+    opacity: .9;
+    width: 100%;
+}
+
+.aboutImage h1{
+    color: #fff;
+    font-size: 500%;
+    letter-spacing: .2em;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+
+.aboutContent h3{
+	line-height: 1.5;
+	font-family: inherit;
+	font-weight: 100;
+}
+
+.aboutContent h3.aboutSectionTitle{
+	font-weight: 400;
+	color: #7cada9;
+}
+
+.aboutContent p{
+	line-height: 1.5;
+	font-weight: 100;
+	font-size: 18px;
+}
+.semibold{
+	font-weight: 400;
+}
 
 /*Buttons*/
 .btn-7 {
@@ -1199,6 +1238,11 @@ span img{
 
 /* ---------- CONTRIBUTE ----------*/
 
+.contributeContent{
+    width: 100%;
+    text-align: center;
+}
+
 .contributeContent .threeBlocks{
     height: 10%;
     width: 90%;
@@ -1238,20 +1282,36 @@ span img{
     background-attachment: fixed;
     background-image: url('../img/SME/SMEfront.jpg'); 
     z-index: 0px;
+    width: 100%;
+}
+
+.contributeHeader{
+    width: 80%;
+    height: 100%;
+    text-align: center;
+     
 }
 
 
+.contributeImage h1{
+    color: #fff;
+    font-size: 500%;
+    letter-spacing: .2em;
+    font-family: 'Roboto';
+    text-align: center;
+}
+/*
 .contributeHeader h1{
     color: #fff;
-    position: fixed;
-    top: 25%;
-    left: 35%;z-index: 0px;
+    text-align: center;
+    /*position: fixed;*!/
+    text-align: center;
+    z-index: 0px;
     font-size: 5em;
     font-family: 'Roboto';
-    text-align: center; 
     letter-spacing: .2em;
     font-weight: 300;
-}
+}*/
 
 .contributeBlocks {
     padding-bottom: 5%;
@@ -1274,7 +1334,7 @@ span img{
 @media (max-width: 650px) {
     .contributeHeader h1{
         color: #fff;
-        position: fixed;
+        /*position: fixed;*/
         top: 30%;
         left: 25%;
         z-index: 0px;
