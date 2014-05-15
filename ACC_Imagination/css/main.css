@@ -1,13 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,300italic,300);
 /* ---------- Global Style Settings ---------- */
 
-.top-bar-section li.active:not(.has-form) a:not(.button) {
-padding: 0 15px;
-line-height: 45px;
-color: white;
-background: #333;
-}
-
 body {
     font-family: 'Roboto';
 }
@@ -798,8 +791,13 @@ font-weight: 400;}
 
 /* ---------- People Page ---------- */
 
-.people_slider_div {
-	padding-left: 30px;
+/*.people_slider_div {
+	padding-left: 20px;
+}*/
+
+.people_pg_name {
+	color: white;
+	font-weight: normal;
 }
 
 .people_content {
@@ -960,9 +958,9 @@ font-weight: 400;}
 	z-index: 10;
 }
 
-.orbit-container .orbit-next {
-	padding-right: 15px;
-}
+/*.orbit-container .orbit-next {
+	
+}*/
 
 /*.orbit-container .orbit-prev:hover, .orbit-container .orbit-next:hover {
 	background-color: red;
