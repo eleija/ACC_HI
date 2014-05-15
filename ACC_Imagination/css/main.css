@@ -1,6 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,300italic,300);
 /* ---------- Global Style Settings ---------- */
-body{
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+padding: 0 15px;
+line-height: 45px;
+color: white;
+background: #333;
+}
+
+body {
     font-family: 'Roboto';
 }
 
@@ -790,6 +798,10 @@ font-weight: 400;}
 
 /* ---------- People Page ---------- */
 
+.people_slider_div {
+	padding-left: 30px;
+}
+
 .people_content {
 	background-color: #dfe1e3;
 }
@@ -828,7 +840,7 @@ font-weight: 400;}
 
 .tabs.vertical {
     height: 31em;
-/*    background-color: #e7e7e7;*/
+    background-color: #e7e7e7;
 }
 
 
@@ -934,18 +946,61 @@ font-weight: 400;}
 	font-size: 11px;
 }
 
+.orbit-container .orbit-prev, .orbit-container .orbit-next {
+	position: absolute;
+	top: 48.5%;
+	margin-top: -25px;
+	width: 36px;
+	height: 60px;
+	line-height: 50px;
+	color: white;
+	/*background-color: #553c3c;*/
+	background-color: transparent;
+	text-indent: -9999px !important;
+	z-index: 10;
+}
 
-/*FOOTER*/
-.foot1{
+.orbit-container .orbit-next {
+	padding-right: 15px;
+}
+
+/*.orbit-container .orbit-prev:hover, .orbit-container .orbit-next:hover {
+	background-color: red;
+}
+
+.orbit-container .orbit-next > span {
+border-color: transparent;
+border-left-style: solid;
+border-left-color: white;
+left: 50%;
+margin-left: -4px;
+}*/
+
+
+.people_modal_hr {
+	border: solid #dddddd;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: .3rem 0 .5rem;
+	height: 0;
+}
+
+
+
+
+
+/* -------------- FOOTER ------------- */
+
+.foot1 {
     background-color: #333;
     height: 5.4rem;
 }
-.foot1 img{
+.foot1 img {
     margin-top: 20px;
     float: right;
 }
 
-.foot2{
+.foot2 {
     background-color: #c55d42;
     padding: 20px 0px 2px 0px;
 }
@@ -1201,7 +1256,7 @@ span img{
     border-width: 1px;
     border-color: #828285;
     margin-bottom: 1.25rem;
-    padding: 1.25rem;
+    padding: .75rem;
     background: #828285;
 }
 
