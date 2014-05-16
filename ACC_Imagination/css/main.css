@@ -1024,6 +1024,16 @@ margin-left: -4px;
 
 .subheader {
 	font-size: 12px;
+	margin-bottom: 0px;
+}
+
+.subheader2 {
+	line-height: 1.4;
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 0rem;
+	margin-bottom: 0rem;
+	
 }
 
 .full_profile_projectspubs, .full_profile_bio_section {
