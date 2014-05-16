@@ -1031,6 +1031,17 @@ margin-left: -4px;
 	
 }
 
+.orbit-container .orbit-slides-container li .orbit-caption {
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(51, 51, 51, 0.8);
+	color: white;
+	width: 95.5%;
+	max-width: 633px;
+	padding: 0.625rem 0.875rem;
+	font-size: 0.875rem;
+}
+
 
 /* ---------- Footer ---------- 
 footer{
@@ -1285,7 +1296,7 @@ span img{
 /* ---------- Programs ---------- */
 
 .slider_background {
-	background-color: ghostwhite;
+	/*background-color: ghostwhite;*/
 
 }
 
