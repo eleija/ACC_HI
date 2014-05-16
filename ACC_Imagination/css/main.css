@@ -1447,3 +1447,8 @@ span img{
 .news_read_more {
 	margin-bottom: 2rem;
 }
+
+
+.lightbox_full_size_img {
+	max-height: 600px;
+}
