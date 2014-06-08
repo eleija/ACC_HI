@@ -1348,6 +1348,11 @@ span img{
 
 }
 
+ul.block-grid-2 >li >img {
+	max-width: 50px;
+	max-height: 50px;
+}
+
 /* ---------- CONTRIBUTE ----------*/
 
 .contributeContent{
