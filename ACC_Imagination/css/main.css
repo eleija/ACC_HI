@@ -512,6 +512,38 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 .su-link{color:#c55d42; text-decoration:none;}
 .su-link:hover{color:#c55d42; text-decoration:underline;}
 
+#event-info .news_event_info {
+	font-family: 'Roboto';
+}
+
+#event-info .event-date {
+	vertical-align:top;
+	
+	padding-right:5px;
+}
+
+#event-info .event-date .event-month {
+	padding-top:5px;
+	padding-left:5px;
+	font-weight:300;
+	font-size:1.5em;
+	text-transform:uppercase;
+	display:block;
+	text-align:center;
+	line-height:1.1;
+	letter-spacing:1px;
+}
+
+#event-info .event-date .event-day {
+	font-weight:100;
+	display:block;
+	text-align:center;
+	font-size:1.5em;
+	color:#820000;
+	line-height:1.5;
+}
+
+
 
 
 /* ---------- Affiliates Page ---------- */
@@ -1540,3 +1572,66 @@ ul.block-grid-2 > li img {
 	max-height: 600px;
 }
 
+
+/* ---------- Single Event Page ---------- */
+
+.event_banner {
+	margin-top: 20px;	
+}
+
+#news-event-info {
+	margin-top: 15px;
+}
+
+.event_time {
+	color:#c55d42; 
+	display: inline-block;
+	text-decoration:none;
+	padding-top: 10px;
+}
+
+.event_location {
+	color: #c55d42;
+}
+
+.event_location:hover {
+	text-decoration: underline;
+}
+
+.event_time:hover {
+	color:#c55d42; 
+}
+
+#single_event_date {
+	margin-top: 10px;
+}
+
+.single_event_hr {
+	margin-top: 15px;
+}
+
+.event_image_person {
+	width: 200px;
+	margin: 0 auto;
+	max-width: 200px;
+	border-radius: 75px;
+		-webkit-border-radius: 200px;
+		-moz-border-radius: 200px;
+	margin-left: 12.5%;
+}
+
+.single_event_description {
+	
+}
+
+.event_person_name {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.event_person_description {
+	display: inline-block;
+	margin-top: 10px;
+	line-height: 1.3;
+}
