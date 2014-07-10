@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/font-awesome.css" />
     <link rel="stylesheet" href="css/component.css" />
+    <link rel="stylesheet" href="css/responsive-nav.css">
     <link rel="stylesheet" href="css/main.css" />
+    <script src="js/responsive-nav.js"></script>
     <script src="js/vendor/modernizr.js"></script>
       
   </head>
@@ -15,9 +17,53 @@
 
 <div class="wrapper">
 <!-- Navigation -->
- <nav class="top-bar" data-topbar>
-   <ul class="title-area logo" style="border-bottom:none;">
-     <!-- Title Area -->
+ <div class="row">
+     <a href="index.html">
+            <img class="logo" src="img/clarke-logo-black-med.png" alt="logo"/>
+         </a>
+         <!-- Social- -->
+
+        <div class="back right">
+          <ul>
+            <li class="social_square zocial-facebook facebook"></li>
+            <li class="social_square zocial-youtube googleplus"></li>
+            <li class="social_square zocial-twitter twitter"></li>
+            <li class="social_square zocial-email rss"></li>
+          </ul>
+        </div>
+</div>
+ <nav class="nav-collapse">
+    <ul>
+        <li>
+         <a href="about.html">About</a></a>
+       </li>
+       
+       <li><a href="people.html">People</a></li>
+       
+       <li>
+         <a href="research.html">Research &amp; Projects</a>
+       </li>
+       
+       <li>
+         <a href="programs.html">Programs</a>
+       </li>
+       
+       <li>
+         <a href="affiliates.html">Affiliates</a>
+       </li>
+       
+       <li>
+         <a href="newsandevents.html">News &amp; Events</a>
+       </li>
+       <li>
+         <a href="contribute.html">Contribute</a>
+       </li>
+    </ul>
+ </nav>
+
+
+   <!-- <ul class="title-area logo" style="border-bottom:none;">
+     <!-- Title Area -
      <li class="name">
          <a href="index.html">
            <img src="img/clarke-logo-black-med.png">
@@ -27,7 +73,7 @@
    </ul>
     <div class="navRight"> 
        <section class="top-bar-section">
-         <!-- Right Nav Section -->
+         <!-- Right Nav Section 
          <ul class="left mainNav">
            <li>
              <a href="about.html">About</a></a>
@@ -55,7 +101,7 @@
            </li>
         </ul>
 
-            <!-- Social-->
+            <!-- Social-
 
             <ul class="small-block-grid-4 right socialGrid socialMobile" style="border-bottom:none;">
               <li><a href="https://www.facebook.com/pages/The-Arthur-C-Clarke-Center-for-Human-Imagination/396133473775164" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -70,10 +116,10 @@
                 <li>
                     <button class="btn-7 btn-7a"><i class="fa fa-rocket"></i>Contribute</button>
                 </li>
-             </ul> -->
+             </ul> -
        </section>
-    </div>
- </nav>
+    </div> -->
+ 
 
  <!-- End Top Bar -->
 
@@ -242,6 +288,9 @@ imagination.</p>
                 }
             });
 		</script>
+        <script>
+      var nav = responsiveNav(".nav-collapse");
+    </script>
   
 </body>
 </html>
