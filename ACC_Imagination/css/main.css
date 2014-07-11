@@ -1508,17 +1508,18 @@ ul.block-grid-2 > li img {
 /* ---------- News & Events ---------- */
 
 .news_title {
-	font-weight: bold;
+	font-weight: normal;
 	font-family: 'Roboto';
 	letter-spacing: 0.05rem;
 	font-size: 24px;
 	color: #7cada9;
 	margin-bottom: 10px;
+	
 }
 
 .news_events_hr {
 	margin-top: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .news_events_thumb {
