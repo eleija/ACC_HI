@@ -105,12 +105,17 @@ nav{
     text-align: center;
 }
 
-
-
 .cbp-spmenu {
     font-family: 'Roboto';
     background: #333;
     position: fixed;
+}
+
+.logo{
+    width: 280px;
+    padding: 20px;
+    padding-top:30px;
+    display: inline;
 }
 
 .cbp-spmenu h3 {
@@ -580,7 +585,25 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 	line-height:1.5;
 }
 
+.person_area {
+	text-align: center;
+	border-left: 1px solid #dddddd;
+}
 
+.person_area .event_person_description{
+	text-align: justify;
+	margin-top: 25px;
+	
+}
+
+span.event_person_subtitle {
+	font-weight: 100;
+	display: block;
+	font-size: 1em;
+	color: #0ab3a6;
+	line-height: 1.5;	
+	font-style: italic;
+}
 
 
 /* ---------- Affiliates Page ---------- */
@@ -1044,7 +1067,7 @@ font-weight: 400;}
 
 .orbit-container .orbit-prev, .orbit-container .orbit-next {
 	position: absolute;
-	top: 41%;
+	top: 48.5%;
 	margin-top: -25px;
 	width: 36px;
 	height: 60px;
@@ -1548,17 +1571,18 @@ ul.block-grid-2 > li img {
 /* ---------- News & Events ---------- */
 
 .news_title {
-	font-weight: bold;
+	font-weight: normal;
 	font-family: 'Roboto';
 	letter-spacing: 0.05rem;
 	font-size: 24px;
 	color: #7cada9;
 	margin-bottom: 10px;
+	
 }
 
 .news_events_hr {
 	margin-top: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .news_events_thumb {
@@ -1668,7 +1692,7 @@ ul.block-grid-2 > li img {
 	border-radius: 75px;
 		-webkit-border-radius: 200px;
 		-moz-border-radius: 200px;
-	margin-left: 12.5%;
+
 }
 
 .single_event_description {
@@ -1679,11 +1703,11 @@ ul.block-grid-2 > li img {
 	display: inline-block;
 	font-weight: 700;
 	font-size: 20px;
+	margin-top: 20px;
 }
 
 .event_person_description {
 	display: inline-block;
-	margin-top: 10px;
 	line-height: 1.3;
 }
 
