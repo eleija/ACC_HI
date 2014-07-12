@@ -106,11 +106,6 @@ nav a{
     display: inline;
 }
 
-.orbit-container .orbit-slides-container img {
-    display: block;
-    height: 100%;
-}
-
 .logo{
     width: 280px;
     padding: 20px;
@@ -554,7 +549,25 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 	line-height:1.5;
 }
 
+.person_area {
+	text-align: center;
+	border-left: 1px solid #dddddd;
+}
 
+.person_area .event_person_description{
+	text-align: justify;
+	margin-top: 25px;
+	
+}
+
+span.event_person_subtitle {
+	font-weight: 100;
+	display: block;
+	font-size: 1em;
+	color: #0ab3a6;
+	line-height: 1.5;	
+	font-style: italic;
+}
 
 
 /* ---------- Affiliates Page ---------- */
@@ -992,7 +1005,7 @@ font-weight: 400;}
 
 .orbit-container .orbit-prev, .orbit-container .orbit-next {
 	position: absolute;
-	top: 41%;
+	top: 48.5%;
 	margin-top: -25px;
 	width: 36px;
 	height: 60px;
@@ -1629,7 +1642,7 @@ ul.block-grid-2 > li img {
 	border-radius: 75px;
 		-webkit-border-radius: 200px;
 		-moz-border-radius: 200px;
-	margin-left: 12.5%;
+
 }
 
 .single_event_description {
@@ -1640,10 +1653,10 @@ ul.block-grid-2 > li img {
 	display: inline-block;
 	font-weight: 700;
 	font-size: 20px;
+	margin-top: 20px;
 }
 
 .event_person_description {
 	display: inline-block;
-	margin-top: 10px;
 	line-height: 1.3;
 }
