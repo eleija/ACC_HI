@@ -5,35 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
     <link rel="stylesheet" href="css/foundation.css" />
-      <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/responsive-nav.css">
     <link rel="stylesheet" href="css/main.css" />
+    <script src="js/responsive-nav.js"></script>
     <script src="js/vendor/modernizr.js"></script>
   </head>
-  <body>
 
+<body>
 <!-- Navigation -->
- <nav class="top-bar" data-topbar>
-   <ul class="title-area logo" style="border-bottom:none;">
-     <!-- Title Area -->
-     <li class="name">
-         <a href="index.html">
-           <img src="img/clarke-logo-black-med.png">
-         </a>
-     </li>
-     <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-   </ul>
+ <nav>
+   <section class="logo"><img src="img/clarke-logo-black-med.png"></section>
 
-   <section class="top-bar-section" style="border-bottom:none;">
+   <section class="nav-collapse">
      <!-- Right Nav Section -->
      <ul class="left mainNav">
        <li>
-         <a class="btn-7a" href="about.html">About</a></a>
+         <a href="about.html">About</a></a>
        </li>
        
        <li><a href="people.html">People</a></li>
        
        <li>
-         <a href="research.html">Research & Projects</a>
+         <a href="research.html">Research &amp; Projects</a>
        </li>
        
        <li>
@@ -45,36 +39,21 @@
        </li>
        
        <li>
-         <a href="newsandevents.html">News & Events</a>
+         <a href="newsandevents.html">News &amp; Events</a>
        </li>
-        </ul>
-
+      </ul>
+     </section>
         <!-- Social-->
-
-        <ul class="small-block-grid-4 right socialGrid" style="border-bottom:none;">
+      <section class="socialGrid">
+        <ul class="small-block-grid-4 right">
           <li><a href="https://www.facebook.com/pages/The-Arthur-C-Clarke-Center-for-Human-Imagination/396133473775164" target="_blank"><i class="fa fa-facebook"></i></a></li>
           <li><a href="https://twitter.com/imagineucsd" target="_blank"><i class="fa fa-twitter"></i> </a></li>
           <li><a href="https://www.youtube.com/channel/UCcStKHKgQeo4p-1ATIui8Mg" target="_blank"><i class="fa fa-youtube-play"></i></a> </li>
           <li><a href="contact.html"><i class="fa fa-envelope"></i></a></li>
       </ul>
-      <!--       Contribute-->
-      
-        <ul class="right">
-            <li></li>
-            <li>
-                <!--<button class="btn-7 btn-7a"><i class="fa fa-rocket"></i>Contribute</button>-->
-            </li>
-         </ul>
-<!--
-        <ul top-bar-section right>
-            <li>
-                 <a href="#">Contribute</a>
-            </li>
-        </ul>
--->
-     </ul>
-   </section>
+      </section>
  </nav>
+
 
  <!-- End Top Bar -->
    
@@ -305,6 +284,9 @@
     <script src="js/jquery.fittext.js"></script>
     <script type="text/javascript">
     	$(".fittext").fitText();
+    </script>
+    <script>
+      var navigation = responsiveNav(".nav-collapse");
     </script>
   </body>
 </html>

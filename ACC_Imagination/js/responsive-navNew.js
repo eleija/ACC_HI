@@ -144,7 +144,7 @@
         this.options = {
           animate: true,                    // Boolean: Use CSS3 transitions, true or false
           transition: 284,                  // Integer: Speed of the transition, in milliseconds
-          label: "",                    // String: Label for the navigation toggle
+          label: "Menu",                    // String: Label for the navigation toggle
           insert: "before",                 // String: Insert the toggle before or after the navigation
           customToggle: "",                 // Selector: Specify the ID of a custom toggle
           closeOnNavClick: false,           // Boolean: Close the navigation when one of the links are clicked
@@ -254,11 +254,11 @@
           if (opts.animate) {
             hasAnimFinished = false;
             setTimeout(function () {
-              nav.style.position = "relative";
+              nav.style.position = "absolute";
               hasAnimFinished = true;
             }, opts.transition + 10);
           } else {
-            nav.style.position = "relative";
+            nav.style.position = "absolute";
           }
 
           navOpen = false;
@@ -275,7 +275,7 @@
           // If the navigation is hidden
           if (nav.className.match(/(^|\s)closed(\s|$)/)) {
             setAttributes(nav, {"aria-hidden": "true"});
-            nav.style.position = "relative";
+            nav.style.position = "absolute";
           }
 
           this._createStyles();
