@@ -105,17 +105,12 @@ nav{
     text-align: center;
 }
 
+
+
 .cbp-spmenu {
     font-family: 'Roboto';
     background: #333;
     position: fixed;
-}
-
-.logo{
-    width: 280px;
-    padding: 20px;
-    padding-top:30px;
-    display: inline;
 }
 
 .cbp-spmenu h3 {
@@ -150,10 +145,10 @@ nav{
 .mainNav a{
     color: #333;
     font-family: 'Roboto';
-    letter-spacing: 0.01rem;
+    letter-spacing: 0.05rem;
     font-size: 14px;
-    font-weight: 800;
-    padding: 10px;
+    font-weight: 500;
+    padding: 5px 10px 5px 10px;
     text-transform:uppercase;
 }
 
@@ -162,11 +157,11 @@ nav{
     background: transparent;
     color: #333;
     display: none;
-    height: 100px;
+    height: 88px;
     z-index: 10;
     cursor: pointer;
     margin: 0px 0;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 300;
 }
 
@@ -191,25 +186,17 @@ ul {
 }
 
 .top-left {
-    float: left;
-    margin-right: 0.9em;
-    /*border-right: 1px solid;*/
-    padding-right: 1em;
-    padding-left: 0.9em;
-    padding-bottom: 0.6em;
-    margin-bottom: 0;
-    position: relative; 
+    width: 300px;
 }
 
 .nav-collapse {
     position: relative;
     height: 50px;
-
-    width: 90%;
+    width: 100%;
 }
 
 .nav-collapse ul {
-    padding-top: 25px;
+    padding-top: 30px;
     text-align: left;
     position: relative;
 
@@ -217,29 +204,31 @@ ul {
 
 .nav-collapse li {
     width: 100%;
-    /*padding-left: 2%; */
+
+    margin-top:5px;
     display: inline;
 }
 
-.logo{
-    position: relative;
-    display: inline-block;
-    float: left;
+.logo-area{
+    width: 268px;
+    background: transparent;
+    z-index: 5;
+    padding: 10px;
+    margin: 0px;
+    margin-top: 12px;
+    margin-right: 25px;
 }
 
-.logo img{
-    width: 265px;
-    padding: 0px;
-    margin-top: 25px;
-    display: inline-block;
-    /*vertical-align: top;*/
+.logo-area:hover, .logo-area:focus{
+    background: transparent;
 }
 
 .socialGrid{
+    width: 88px;
     position: relative;
     display: inline-block;
     float: right;
-    /*margin-right: 10px;*/
+    z-index: 5;
 }
 
 .socialGridSmall{
@@ -297,7 +286,7 @@ ul {
 
 .small-block-grid-4 > li > a{
     display: block;
-    padding: 0px;
+    /*padding: 0px;*/
 }
 
 .small-block-grid-4 li:nth-child(1){
@@ -513,11 +502,37 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 }
 
 /*Buttons*/
+
+.contributeButton button{
+    color: #333;
+    background: transparent;
+    letter-spacing: 0.15rem;
+    padding: 10px 15px 10px 15px;
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 10px;
+    z-index: 5;
+}
+
+.contributeButton button, .contributeButton button:focus {
+    background-color: #transparent;
+}
+
+.contributeButton button:hover{
+    color: #fff;
+    background: #333;
+
+}
+
+
+button.round, .button.round {
+    border-radius: 7px;
+}
+
 .btn-7 {
 	background: transparent;
 	color: #333;
 	border-radius: 7px;
-	/*box-shadow: 0 5px #fff;*/
 	padding: 15px 30px 15px 30px;
 	width: 200px;
 	position: relative;
@@ -585,25 +600,7 @@ background: rgba(255,255,255,0.8); -pie-background: rgba(255,255,255,0.8);
 	line-height:1.5;
 }
 
-.person_area {
-	text-align: center;
-	border-left: 1px solid #dddddd;
-}
 
-.person_area .event_person_description{
-	text-align: justify;
-	margin-top: 25px;
-	
-}
-
-span.event_person_subtitle {
-	font-weight: 100;
-	display: block;
-	font-size: 1em;
-	color: #0ab3a6;
-	line-height: 1.5;	
-	font-style: italic;
-}
 
 
 /* ---------- Affiliates Page ---------- */
@@ -854,8 +851,8 @@ font-weight: 400;}
     padding-top: 30px;
 }
 
-.contact_section h3, contactForm h3{
-    padding: 5px 0 10px 0;
+.contact_section h3{
+    /*padding: 10px 0 10px 0;*/
     color: #78a3a1;
     font-weight: 400;
 }
@@ -864,26 +861,19 @@ font-weight: 400;}
     color: #333;
 }
 
-.contactForm{
-    /*background-color: #78a3a1;*/
+.contactForm h3{
+    /*padding: 10px 0 10px 0;*/
+    color: #78a3a1;
 }
 
-/*.contactForm h3{
-    padding: 10px 0 10px 0;
-    color: #fff;
-}*/
-
-.contactForm button, .contactForm button:hover, .contactForm button:focus {
+.contactForm button, .contactForm button:focus {
     background-color: #333;
 }
 
-
-
-
-/*.contact_section > h3, p {
-	color:  white;
-	margin-top: 1em;
-}*/
+.contactForm button:hover{
+    background-color: #78a3a1;
+    color: #333;
+}
 
 ::-webkit-input-placeholder {
    color: #333;
@@ -1067,7 +1057,7 @@ font-weight: 400;}
 
 .orbit-container .orbit-prev, .orbit-container .orbit-next {
 	position: absolute;
-	top: 48.5%;
+	top: 41%;
 	margin-top: -25px;
 	width: 36px;
 	height: 60px;
@@ -1114,8 +1104,15 @@ font-weight: 400;}
 .orbit-link:hover{ color:#97c4c1; text-decoration:underline;}
 
 
+.orbit-slide-number{
+    display: none;
+}
+
 /*.orbit-container .orbit-next {
 	
+Programs, 
+News & Events.
+
 }*/
 
 /*.orbit-container .orbit-prev:hover, .orbit-container .orbit-next:hover {
@@ -1199,7 +1196,7 @@ margin-left: -4px;
 
 .orbit-container .orbit-slides-container li .orbit-caption {
 	position: relative;
-	bottom: 42px;
+	bottom: 0px;
 	background-color: rgba(51, 51, 51, 0.8);
 	color: white;
 	width: 100%;
@@ -1208,6 +1205,10 @@ margin-left: -4px;
 	font-size: 0.875rem;
 }
 
+
+footer{
+    bottom: 0;
+}
 
 /* ---------- Footer ---------- 
 footer{
@@ -1571,18 +1572,17 @@ ul.block-grid-2 > li img {
 /* ---------- News & Events ---------- */
 
 .news_title {
-	font-weight: normal;
+	font-weight: bold;
 	font-family: 'Roboto';
 	letter-spacing: 0.05rem;
 	font-size: 24px;
 	color: #7cada9;
 	margin-bottom: 10px;
-	
 }
 
 .news_events_hr {
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .news_events_thumb {
@@ -1692,7 +1692,7 @@ ul.block-grid-2 > li img {
 	border-radius: 75px;
 		-webkit-border-radius: 200px;
 		-moz-border-radius: 200px;
-
+	margin-left: 12.5%;
 }
 
 .single_event_description {
@@ -1703,11 +1703,11 @@ ul.block-grid-2 > li img {
 	display: inline-block;
 	font-weight: 700;
 	font-size: 20px;
-	margin-top: 20px;
 }
 
 .event_person_description {
 	display: inline-block;
+	margin-top: 10px;
 	line-height: 1.3;
 }
 
@@ -1729,6 +1729,9 @@ ul.block-grid-2 > li img {
     .mainNav{
         display: none; 
     }
+    .contributeButton{
+        display: none;
+    }
     .socialGrid{
         display: none;
     }
@@ -1743,7 +1746,7 @@ ul.block-grid-2 > li img {
         margin: 0;
         bottom: 0;
         position: absolute;
-        width: 100%; 
+        width: 110%; 
     }
     .block-grid{
         margin: 0; 
@@ -1759,3 +1762,17 @@ ul.block-grid-2 > li img {
         padding: 0;
     }
 }
+.orbit-slides-container img {
+	width: 770px;
+	height: auto;
+	overflow: hidden;
+	}
+.orbit-slide-number {
+	display: none;
+	}
+.orbit-progress {
+	display: none;
+}
+.orbit-timer {
+	display: none;
+	}
